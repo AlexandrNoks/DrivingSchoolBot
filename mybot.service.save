@@ -1,0 +1,20 @@
+[Unit]
+Description=My TG Bot
+After=multi-user.target
+
+[Service]
+Type=symple
+ExecStart=/home/DrivingSchool/cain/bot-venv/bin/python /home/DrivingSchool/cain/bot.py
+WorkingDirectory=/home/DrivingSchool/cain
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+host 192.168.3.44
+    IdentityFile ~/.ssh/id_rsa
+host *
+    IdentitiesOnly=yes

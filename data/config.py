@@ -13,7 +13,7 @@ ADMIN_URL = "https://t.me/AlexNoks"
 
 # Пригласительная ссылка
 VK_URL = 'Пригласительная ссылка https://t.me/+xxep96iuXxk3ZDky'
-BOT_ID = 1933153305
+BOT_ID = 7109473783
 
 ADMIN_ID = 1875053743
 admins_id = 1400170440
